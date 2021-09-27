@@ -14,7 +14,7 @@ melody = \relative c' {
   \time 4/4 c) g g4 r2 | ees4 d r ees8 d | \time 6/8 ges f ges aes ges aes | \time 7/8 a4 fis a8 fis a | \break
   b4 gis (gis8) b gis | \time 9/8 r4 c8 b a aes4 f | \time 6/8 e8 g a bes g bes | \time 4/4 c2 c,2 | \break
   \time 7/8 d'8 a a c4 a | \time 9/8 fis8 g a c a d a r4 | \time 7/8 e'8 c d bes c a fis | \time 4/4 e'4 f, r8 bes 4 a8 | \break
-  e'4 f,2. | \time 3/4 r2. | \time 4/4 c4 g' r bes8 g | c4 g8 bes (bes) g g4 | r8 c d e fis g a bes | \break
+  e'4 f,2. | \time 3/4 r2. | \time 4/4 c4 g' r bes8 g | c4 g8 bes (bes) g g4 | r8 c, d e fis g a bes | \break
   r8 d, e fis gis a b c | c4 c, ees'2( | c,2) r2 | \break
   % | \break
 
