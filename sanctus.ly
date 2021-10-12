@@ -23,7 +23,10 @@ melody = \relative c' {
 }
 
 \score {
-  \new Staff \melody
+  \new Staff {
+    \set Staff.midiInstrument = "glockenspiel"
+    \melody
+  }
   \layout { }
   \midi { }
 }

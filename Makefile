@@ -6,7 +6,7 @@ p-sanctus: sanctus.mp3
 
 %.mp3: %.midi
 	rm -f $@
-	timidity sanctus.midi -Ow -o - | ffmpeg -i - -acodec libmp3lame -ab 64k $@
+	timidity $< -Ow -o - | ffmpeg -i - -acodec libmp3lame -ab 64k $@
 
 %.midi: %.ly
 	lilypond $<
